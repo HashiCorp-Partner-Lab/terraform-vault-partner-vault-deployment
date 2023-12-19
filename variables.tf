@@ -1,14 +1,17 @@
 variable "hvn_id" {
-  type = string
+  type    = string
+  default = "partner-hvn"
 }
 
 variable "hcp_project_id" {
   type        = string
   description = "The HCP Project in which to deploy artifacts"
+  default     = "No Project ID Set"
 }
 
 variable "cluster_id" {
-  type = string
+  type    = string
+  default = "partner-hcp-vault"
 }
 
 variable "cloud_provider" {
