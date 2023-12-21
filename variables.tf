@@ -1,9 +1,9 @@
-variable "hvn_id" {
+variable "hpl_hcp_hvn_id" {
   type    = string
   default = "partner-hvn"
 }
 
-variable "hcp_project_id" {
+variable "hpl_hcp_project_id" {
   type        = string
   description = "The HCP Project in which to deploy artifacts"
   default     = "No Project ID Set"
