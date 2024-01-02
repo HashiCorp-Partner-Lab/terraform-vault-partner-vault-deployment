@@ -1,7 +1,7 @@
 variable "hpl_hcp_hvn_id" {
   type    = string
   description = "The ID of the HVN this HCP Vault cluster is associated to"
-  default = "partner-hvn"
+  default = ""
 }
 
 variable "hpl_hcp_project_id" {
