@@ -1,7 +1,7 @@
 variable "hpl_hcp_hvn_id" {
-  type    = string
+  type        = string
   description = "The ID of the HVN this HCP Vault cluster is associated to"
-  default = ""
+  default     = ""
 }
 
 variable "hpl_hcp_project_id" {
@@ -11,19 +11,19 @@ variable "hpl_hcp_project_id" {
 }
 
 variable "cluster_id" {
-  type    = string
+  type        = string
   description = "The ID of the HCP Vault cluster"
-  default = "partner-hcp-vault"
+  default     = "partner-hcp-vault"
 }
 
 variable "tier" {
-  type    = string
+  type        = string
   description = "Tier of the HCP Vault cluster"
-  default = "plus_small"
+  default     = "plus_small"
 }
 
 variable "expose_public_endpoint" {
-  type    = bool
+  type        = bool
   description = "Denotes that the cluster has a public endpoint"
-  default = true
+  default     = true
 }
