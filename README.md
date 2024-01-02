@@ -28,10 +28,11 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_cluster_id"></a> [cluster\_id](#input\_cluster\_id) | The ID of the HCP Vault cluster | `string` | `"partner-hcp-vault"` | no |
+| <a name="input_cluster_id_suffix"></a> [cluster\_id\_suffix](#input\_cluster\_id\_suffix) | The ID suffix of the HCP Vault cluster | `string` | `"partner-hcp-vault"` | no |
 | <a name="input_expose_public_endpoint"></a> [expose\_public\_endpoint](#input\_expose\_public\_endpoint) | Denotes that the cluster has a public endpoint | `bool` | `true` | no |
 | <a name="input_hpl_hcp_hvn_id"></a> [hpl\_hcp\_hvn\_id](#input\_hpl\_hcp\_hvn\_id) | The ID of the HVN this HCP Vault cluster is associated to | `string` | `""` | no |
 | <a name="input_hpl_hcp_project_id"></a> [hpl\_hcp\_project\_id](#input\_hpl\_hcp\_project\_id) | The HCP Project in which to deploy artifacts | `string` | `""` | no |
+| <a name="input_hpl_hcp_project_name"></a> [hpl\_hcp\_project\_name](#input\_hpl\_hcp\_project\_name) | The HCP Project name | `string` | `""` | no |
 | <a name="input_tier"></a> [tier](#input\_tier) | Tier of the HCP Vault cluster | `string` | `"plus_small"` | no |
 
 ## Outputs

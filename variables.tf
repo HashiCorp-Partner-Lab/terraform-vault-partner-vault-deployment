@@ -10,9 +10,15 @@ variable "hpl_hcp_project_id" {
   default     = ""
 }
 
-variable "cluster_id" {
+variable "hpl_hcp_project_name" {
   type        = string
-  description = "The ID of the HCP Vault cluster"
+  description = "The HCP Project name"
+  default     = ""
+}
+
+variable "cluster_id_suffix" {
+  type        = string
+  description = "The ID suffix of the HCP Vault cluster"
   default     = "partner-hcp-vault"
 }
 
