@@ -1,3 +1,8 @@
+/*
+* # terraform-vault-partner-vault-deployment
+* No-Code Terraform Module for Vault cluster deployment
+*/
+
 resource "hcp_vault_cluster" "partner-hcp-vault-cluster" {
   cluster_id      = var.cluster_id
   hvn_id          = var.hpl_hcp_hvn_id
