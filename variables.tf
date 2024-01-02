@@ -6,30 +6,23 @@ variable "hpl_hcp_hvn_id" {
 variable "hpl_hcp_project_id" {
   type        = string
   description = "The HCP Project in which to deploy artifacts"
-  default     = "No Project ID Set"
+  default     = ""
 }
 
 variable "cluster_id" {
   type    = string
+  description = "The ID of the HCP Vault cluster"
   default = "partner-hcp-vault"
-}
-
-variable "cloud_provider" {
-  type    = string
-  default = "aws"
-}
-
-variable "region" {
-  type    = string
-  default = "eu-west-2"
 }
 
 variable "tier" {
   type    = string
+  description = "Tier of the HCP Vault cluster"
   default = "plus_small"
 }
 
 variable "expose_public_endpoint" {
   type    = bool
+  description = "Denotes that the cluster has a public endpoint"
   default = true
 }
