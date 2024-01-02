@@ -28,13 +28,11 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_cloud_provider"></a> [cloud\_provider](#input\_cloud\_provider) | n/a | `string` | `"aws"` | no |
-| <a name="input_cluster_id"></a> [cluster\_id](#input\_cluster\_id) | n/a | `string` | `"partner-hcp-vault"` | no |
-| <a name="input_expose_public_endpoint"></a> [expose\_public\_endpoint](#input\_expose\_public\_endpoint) | n/a | `bool` | `true` | no |
+| <a name="input_cluster_id"></a> [cluster\_id](#input\_cluster\_id) | The ID of the HCP Vault cluster | `string` | `"partner-hcp-vault"` | no |
+| <a name="input_expose_public_endpoint"></a> [expose\_public\_endpoint](#input\_expose\_public\_endpoint) | Denotes that the cluster has a public endpoint | `bool` | `true` | no |
 | <a name="input_hpl_hcp_hvn_id"></a> [hpl\_hcp\_hvn\_id](#input\_hpl\_hcp\_hvn\_id) | n/a | `string` | `"partner-hvn"` | no |
-| <a name="input_hpl_hcp_project_id"></a> [hpl\_hcp\_project\_id](#input\_hpl\_hcp\_project\_id) | The HCP Project in which to deploy artifacts | `string` | `"No Project ID Set"` | no |
-| <a name="input_region"></a> [region](#input\_region) | n/a | `string` | `"eu-west-2"` | no |
-| <a name="input_tier"></a> [tier](#input\_tier) | n/a | `string` | `"plus_small"` | no |
+| <a name="input_hpl_hcp_project_id"></a> [hpl\_hcp\_project\_id](#input\_hpl\_hcp\_project\_id) | The HCP Project in which to deploy artifacts | `string` | `""` | no |
+| <a name="input_tier"></a> [tier](#input\_tier) | Tier of the HCP Vault cluster | `string` | `"plus_small"` | no |
 
 ## Outputs
 
