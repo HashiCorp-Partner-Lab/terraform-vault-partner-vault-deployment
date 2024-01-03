@@ -19,7 +19,7 @@ variable "hpl_hcp_project_name" {
 variable "cluster_id_suffix" {
   type        = string
   description = "The ID suffix of the HCP Vault cluster"
-  default     = "partner-hcp-vault"
+  default     = "vault-1"
 }
 
 variable "tier" {
