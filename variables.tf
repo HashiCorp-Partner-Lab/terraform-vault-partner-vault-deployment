@@ -25,7 +25,7 @@ variable "cluster_id_suffix" {
 variable "tier" {
   type        = string
   description = "Tier of the HCP Vault cluster"
-  default     = "plus_small"
+  default     = "dev"
 }
 
 variable "expose_public_endpoint" {
