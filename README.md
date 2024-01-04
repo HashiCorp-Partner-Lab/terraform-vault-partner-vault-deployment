@@ -39,7 +39,7 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_bootstrap_token"></a> [bootstrap\_token](#output\_bootstrap\_token) | n/a |
-| <a name="output_cluster_id"></a> [cluster\_id](#output\_cluster\_id) | n/a |
-| <a name="output_private_endpoint_url"></a> [private\_endpoint\_url](#output\_private\_endpoint\_url) | n/a |
-| <a name="output_public_endpoint_url"></a> [public\_endpoint\_url](#output\_public\_endpoint\_url) | n/a |
+| <a name="output_bootstrap_token"></a> [bootstrap\_token](#output\_bootstrap\_token) | The admin token of this HCP Vault cluster |
+| <a name="output_cluster_id"></a> [cluster\_id](#output\_cluster\_id) | The ID of the HCP Vault cluster |
+| <a name="output_private_endpoint_url"></a> [private\_endpoint\_url](#output\_private\_endpoint\_url) | The private URL for the Vault cluster |
+| <a name="output_public_endpoint_url"></a> [public\_endpoint\_url](#output\_public\_endpoint\_url) | The public URL for the Vault cluster |
