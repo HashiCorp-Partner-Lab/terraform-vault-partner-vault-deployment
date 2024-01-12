@@ -47,6 +47,14 @@ resource "tfe_variable" "TFC_VAULT_AUTH_PATH" {
   variable_set_id = tfe_variable_set.hcp-vault.id
 }
 
+resource "tfe_variable" "vault_public_endpoint_url" {
+  key             = "vault_public_endpoint_url"
+  value           = hcp_vault_cluster.partner-hcp-vault-cluster.vault_public_endpoint_url
+  category        = "terraform"
+  description     = "The address of the Vault instance."
+  variable_set_id = tfe_variable_set.hcp-vault.id
+}
+
 # Create an exclusion for this Vault Deployment Workspace
 
 resource "tfe_variable" "TFC_VAULT_PROVIDER_AUTH_false" {
